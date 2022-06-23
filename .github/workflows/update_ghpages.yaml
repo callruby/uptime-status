@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [ghpages_update]  
-  schedule:
-  - cron: '5 3 * * *'
+  #schedule:
+  #- cron: '5 3 * * *'
 
 jobs:
   check:
