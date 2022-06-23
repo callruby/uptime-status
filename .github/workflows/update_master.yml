@@ -1,8 +1,8 @@
 name: Update master branch from uptime-status-generator
 on:
   workflow_dispatch:
-  schedule:
-  - cron: '*/20 * * * *'
+  #schedule:
+  #- cron: '*/20 * * * *'
 
 jobs:
   check:
