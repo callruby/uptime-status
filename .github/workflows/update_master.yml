@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [master_update]  
-  schedule:
-  - cron: '5 1 * * *'
+  #schedule:
+  #- cron: '5 1 * * *'
 
 jobs:
   check:
