@@ -2,7 +2,7 @@ name: Update gh-pages branch from uptime-status-generator
 on:
   workflow_dispatch:
   schedule:
-  - cron: '*/59 * * * *'
+  - cron: '5 3 * * *'
 
 jobs:
   check:
